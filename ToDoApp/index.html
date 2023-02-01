@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>ToDo App By Topu Roy</h1>
+    </header>
+    <div id="input_section">
+        <form>
+            <input id="input_text" class="shadow" type="text">
+            <button id="add_button" class="shadow">Add</button>
+            <button id="clear_button" class="shadow">Clear</button>
+        </form>
+        <select name="todo_filter" id="filter_items" class="filter_todo_items">
+            <option class="filter_options" selected value="all">All</option>
+            <option class="filter_options" value="completed">Completed</option>
+            <option class="filter_options" value="uncompleted">Uncompleted</option>
+        </select>
+    </div>
+    <div class="outer_div">
+        <li id="todo_list_section">
+            <div class="spacing_div"></div>
+        </li>
+    </div>
+
+</body>
+
+</html>
